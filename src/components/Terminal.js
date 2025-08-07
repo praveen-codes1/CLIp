@@ -3,7 +3,7 @@ import CommandInput from './CommandInput';
 import OutputHistory from './OutputHistory';
 
 const MENU_COMMANDS = [
-  'help', 'about', 'projects', 'skills', 'experience', 'contact', 'education', 'certifications', 'leadership', 'sudo', 'clear'
+  'Type either of ->','help', 'about', 'projects', 'skills', 'experience', 'contact', 'education', 'certifications', 'leadership', 'sudo', 'clear'
 ];
 
 const Terminal = () => {
@@ -11,7 +11,7 @@ const Terminal = () => {
     { type: 'prompt', content: "welcome", prompt: true },
     { type: 'output', content: "Hi, I'm Praveen Patil, a Data Science Junior.\n\nWelcome to my interactive portfolio terminal!\nType 'help' to see available commands." }
   ]);
-  const [isProcessing, setIsProcessing] = useState(false);
+  const [isProcessing] = useState(false);
   const terminalRef = useRef(null);
 
   const commands = {
