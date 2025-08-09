@@ -3,7 +3,7 @@ import CommandInput from './CommandInput';
 import OutputHistory from './OutputHistory';
 
 const MENU_COMMANDS = [
-  'If you can''t type, CLICK' ->','help', 'about', 'projects', 'skills', 'experience', 'contact', 'education', 'certifications', 'leadership', 'sudo', 'clear'
+  'If you can\'t type, CLICK',' ->','help', 'about', 'projects', 'skills', 'experience', 'contact', 'education', 'certifications', 'leadership', 'sudo', 'clear'
 ];
 
 const Terminal = () => {
